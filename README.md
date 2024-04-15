@@ -2,8 +2,8 @@
 
 ## Todo List
 
-- [ ] Make it deploy (vercel)
-- [ ] scaffold basic ui with mock data
+- [x] Make it deploy (vercel)
+- [x] scaffold basic ui with mock data
 - [ ] Actually set up a database (vercel postgres)
 - [ ] Attach database to UI
 - [ ] Add authentication (clerk)
@@ -12,4 +12,3 @@
 - [ ] Routing/Image page (parallel route)
 - [ ] Analytics (posthog)
 - [ ] Ratelimiting (upstash)
-
