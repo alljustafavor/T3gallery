@@ -27,10 +27,10 @@ export default function RootLayout({
 }) {
   return (
     <ClerkProvider>
-      <NextSSRPlugin
-        routerConfig={extractRouterConfig(ourFileRouter)}
-      />
       <html lang="en">
+        <NextSSRPlugin
+          routerConfig={extractRouterConfig(ourFileRouter)}
+        />
         <body className={`font-sans ${inter.variable} flex flex-col gap-4`}>
           <TopNav />
           {children}
